@@ -1,0 +1,4 @@
+El objetivo de este conjunto de datos es distinguir entre sonidos nasales (clase 0) y orales (clase 1). 
+La distribución de las clases es de 3.818 muestras en la clase 0 y 1.586 muestras en la clase 1.
+
+Los fonemas se transcriben como sigue: sh como en she, dcl como en dark, iy como la vocal en she, aa como la vocal en dark y ao como la primera vocal en water.

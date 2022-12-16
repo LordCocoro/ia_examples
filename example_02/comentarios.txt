@@ -1,0 +1,9 @@
+El presente trabajo tuvo como objetivo entender mas sobre el metodo de Regresión logística, 
+el caso de estudio nos dio un vistaso a las limitaciónes de la regresión logística a datos atipicos
+en este caso el [18,0] que limita el parendizaje correcto de la funcion sigmoidal, para una correcta clasificación,
+apesar de definir exponenciales pasos, jamas disminuira el error de 9 devido al valor atipico encontrado, lo cual
+cambia rapidamente si hacemos el cambiode [18,0] a [18,1], los valores de prueba son acertados en 50% debido al [6,1]
+la funcion sigmoide lo clasifica como un 0, sin embargo provando con otros valores como [11,1], [16,1], [2,0], [12,1]
+los clasifica bastante bien.
+
+**para efectos practicos se imprimieron los datos cada 10 pasos
